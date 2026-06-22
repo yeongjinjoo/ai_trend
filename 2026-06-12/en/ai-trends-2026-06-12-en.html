@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>This Week in AI — June 12, 2026</title>
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --muted: #6b6b6b;
+    --accent: #d4541b;
+    --bg: #fafaf7;
+    --card: #ffffff;
+    --rule: #e8e6df;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+  header.masthead { border-bottom: 2px solid var(--ink); padding-bottom: 16px; margin-bottom: 32px; }
+  .kicker { font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); font-weight: 700; }
+  h1.title { font-size: 36px; line-height: 1.15; margin: 6px 0 4px; letter-spacing: -0.01em; }
+  .tagline { color: var(--muted); font-size: 15px; margin: 0; }
+  .intro { font-size: 17px; color: var(--ink); margin: 0 0 40px; }
+  .story-of-week { background: var(--card); border-left: 4px solid var(--accent); padding: 24px 28px; margin: 0 0 40px; border-radius: 4px; box-shadow: 0 1px 0 rgba(0,0,0,0.03); }
+  .story-of-week .kicker { color: var(--accent); }
+  .story-of-week h2 { font-size: 24px; margin: 6px 0 12px; line-height: 1.25; }
+  .story-of-week p { margin: 0 0 10px; font-size: 16px; }
+  .theme { margin: 0 0 32px; }
+  .theme h3 { font-size: 20px; margin: 0 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--rule); }
+  .theme ul { list-style: none; padding: 0; margin: 0; }
+  .theme .item { padding: 10px 0; border-bottom: 1px dashed var(--rule); }
+  .theme .item:last-child { border-bottom: none; }
+  .theme .item .head { font-weight: 600; color: var(--ink); }
+  .theme .item .why { color: var(--muted); font-size: 15px; margin-top: 2px; }
+  a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; }
+  a:hover { border-bottom-color: var(--accent); }
+  .keywords { background: var(--card); padding: 28px; border-radius: 6px; text-align: center; margin: 40px 0; border: 1px solid var(--rule); }
+  .keywords .label { font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 16px; }
+  .kw { display: inline-block; margin: 4px 8px; color: var(--ink); }
+  .kw-lg { font-size: 26px; font-weight: 700; }
+  .kw-md { font-size: 18px; font-weight: 600; color: var(--accent); }
+  .kw-sm { font-size: 14px; color: var(--muted); }
+  .watch { background: var(--card); border: 1px dashed var(--accent); padding: 20px 24px; border-radius: 4px; margin: 0 0 40px; }
+  .watch .kicker { color: var(--accent); }
+  .watch p { margin: 6px 0 0; }
+  footer.foot { border-top: 1px solid var(--rule); padding-top: 20px; margin-top: 40px; color: var(--muted); font-size: 13px; }
+  footer.foot h4 { color: var(--ink); margin: 0 0 8px; font-size: 14px; }
+  footer.foot ol { padding-left: 18px; margin: 0 0 16px; }
+  footer.foot ol li { margin-bottom: 4px; word-break: break-all; }
+</style>
+  <!-- BUILD_SITE:META:START (자동 생성 — 수정 금지) -->
+  <link rel="canonical" href="https://example.pages.dev/2026-06-12/en/ai-trends-2026-06-12-en.html">
+  <link rel="alternate" hreflang="en" href="https://example.pages.dev/2026-06-12/en/ai-trends-2026-06-12-en.html">
+  <link rel="alternate" hreflang="zh" href="https://example.pages.dev/2026-06-12/zh/ai-trends-2026-06-12-zh.html">
+  <link rel="alternate" hreflang="ja" href="https://example.pages.dev/2026-06-12/ja/ai-trends-2026-06-12-ja.html">
+  <link rel="alternate" hreflang="ko" href="https://example.pages.dev/2026-06-12/ko/ai-trends-2026-06-12-ko.html">
+  <link rel="alternate" hreflang="x-default" href="https://example.pages.dev/2026-06-12/en/ai-trends-2026-06-12-en.html">
+  <meta name="description" content="No quiet week here. Anthropic surprised the field with Claude Fable 5, reclaiming the benchmark crown, while Microsoft dropped seven in-house MAI models in one shot. Meanwhile, the EU AI Act&#39;s full enforcement date (August 2) is close enough that compliance teams are sprinting,…">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="This Week in AI">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="Fable 5 Arrives, Model Race Enters a New Phase">
+  <meta property="og:description" content="No quiet week here. Anthropic surprised the field with Claude Fable 5, reclaiming the benchmark crown, while Microsoft dropped seven in-house MAI models in one shot. Meanwhile, the EU AI Act&#39;s full enforcement date (August 2) is close enough that compliance teams are sprinting,…">
+  <meta property="og:url" content="https://example.pages.dev/2026-06-12/en/ai-trends-2026-06-12-en.html">
+  <meta property="og:image" content="https://example.pages.dev/og-default.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Fable 5 Arrives, Model Race Enters a New Phase">
+  <meta name="twitter:description" content="No quiet week here. Anthropic surprised the field with Claude Fable 5, reclaiming the benchmark crown, while Microsoft dropped seven in-house MAI models in one shot. Meanwhile, the EU AI Act&#39;s full enforcement date (August 2) is close enough that compliance teams are sprinting,…">
+  <meta name="twitter:image" content="https://example.pages.dev/og-default.svg">
+  <!-- BUILD_SITE:META:END -->
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="kicker">This Week in AI · June 12, 2026</div>
+    <h1 class="title">Fable 5 Arrives, Model Race Enters a New Phase</h1>
+    <p class="tagline">June 5 – 12, 2026 · Models, regulation, and investment all moved at once</p>
+  </header>
+
+  <p class="intro">No quiet week here. Anthropic surprised the field with Claude Fable 5, reclaiming the benchmark crown, while Microsoft dropped seven in-house MAI models in one shot. Meanwhile, the EU AI Act's full enforcement date (August 2) is close enough that compliance teams are sprinting, and Q1 venture funding broke the $300B barrier for the first time ever. A week of pure acceleration.</p>
+
+  <section class="story-of-week">
+    <div class="kicker">Story of the Week</div>
+    <h2>Anthropic Launches Claude Fable 5 — Benchmark Crown Reclaimed</h2>
+    <p>On June 9, Anthropic released Claude Fable 5, available first to paid subscribers and enterprise customers. It claims top-of-chart performance on nearly every major benchmark — software engineering, knowledge work, vision, and scientific research. Pricing is $10 per million input tokens and $50 per million output tokens, double Claude Opus 4.8.</p>
+    <p>The model ships with tightened safety controls that block responses in high-risk categories like cybersecurity and biology. Anthropic also announced Claude Corps (a youth fellowship program) and an expansion of Project Glasswing to 150+ organizations across 15+ countries — signaling this release was about more than just the model.</p>
+    <p><a href="https://www.cnbc.com/2026/06/09/anthropic-mythos-claude-fable-5.html">Read the source →</a></p>
+  </section>
+
+  <section class="theme">
+    <h3>🤖 Model Wars — Frontier Models All at Once</h3>
+    <ul>
+      <li class="item">
+        <div class="head">Microsoft unveils 7 MAI models simultaneously <a href="https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/">↗</a></div>
+        <div class="why">Includes MAI-Thinking-1 (flagship reasoning) and MAI-Code-1-Flash (GitHub Copilot-optimized). A clear statement of intent to reduce OpenAI dependency.</div>
+      </li>
+      <li class="item">
+        <div class="head">OpenAI ships GPT-5.5 at $1.50 input / $9 output per million tokens <a href="https://wavespeed.ai/blog/posts/june-2026-ai-launch-wave/">↗</a></div>
+        <div class="why">June is shaping up as the most active frontier model month of 2026. Price competition is getting real.</div>
+      </li>
+      <li class="item">
+        <div class="head">NVIDIA Nemotron 550B, Google Gemma 4 and more open models land <a href="https://llm-stats.com/llm-updates">↗</a></div>
+        <div class="why">The closed vs. open gap is narrowing fast. A new model is arriving roughly every two days.</div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="theme">
+    <h3>💰 Investment Frenzy — $300B in Q1 Alone</h3>
+    <ul>
+      <li class="item">
+        <div class="head">Q1 2026 global VC funding breaks $300B for the first time <a href="https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/">↗</a></div>
+        <div class="why">AI captured $242B — 80% of the total. It's no longer a metaphor to say AI is rewriting the VC market.</div>
+      </li>
+      <li class="item">
+        <div class="head">Anthropic valued at $965B after Series H — top standalone AI startup <a href="https://qubit.capital/blog/ai-startup-fundraising-trends">↗</a></div>
+        <div class="why">A trillion-dollar valuation is now a question of when, not if.</div>
+      </li>
+      <li class="item">
+        <div class="head">PhysicsX raises $300M Series C for "Large Physics Models" <a href="https://aifundingtracker.com/top-50-ai-startups/">↗</a></div>
+        <div class="why">Industrial AI goes deep. Generative AI hype is reaching aerospace, semiconductor, and defense simulation.</div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="theme">
+    <h3>⚖️ Regulation Reality — Europe, US Federal, US States All Moving</h3>
+    <ul>
+      <li class="item">
+        <div class="head">EU AI Act: full enforcement on August 2 — the clock is ticking <a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai">↗</a></div>
+        <div class="why">Prohibited practices and governance rules are already live. High-risk AI system obligations kick in August 2.</div>
+      </li>
+      <li class="item">
+        <div class="head">Colorado AI Act takes effect June 30 — algorithmic discrimination rules, impact assessments required <a href="https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/">↗</a></div>
+        <div class="why">First US state-level AI regulation. Likely to serve as a template for other states.</div>
+      </li>
+      <li class="item">
+        <div class="head">White House issues AI innovation &amp; security executive order <a href="https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/">↗</a></div>
+        <div class="why">Federal stance: deregulate. That's the opposite direction from the EU, forcing global companies to run dual compliance tracks.</div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="theme">
+    <h3>🔧 Agent Infrastructure — MCP Is Eating the Ecosystem</h3>
+    <ul>
+      <li class="item">
+        <div class="head">MCP hits 9,400+ public servers, SDK at 97M monthly downloads <a href="https://toloka.ai/blog/the-future-of-mcp-enterprise-adoption/">↗</a></div>
+        <div class="why">4,750% growth in 16 months. MCP is hardening into the de facto standard for agent communication.</div>
+      </li>
+      <li class="item">
+        <div class="head">Microsoft Foundry going GA with direct Teams and M365 Copilot deployment <a href="https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-build-2026/">↗</a></div>
+        <div class="why">Agents plug straight into tools employees already use. Enterprise adoption velocity is about to jump.</div>
+      </li>
+      <li class="item">
+        <div class="head">Claude Agent SDK starts separate credit billing June 15 <a href="https://releasebot.io/updates/anthropic">↗</a></div>
+        <div class="why">The free buffer disappears. Agent cost optimization is now a real engineering problem.</div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="theme">
+    <h3>🏥 AI × Healthcare — Operating Rooms and Radiology Both Changing</h3>
+    <ul>
+      <li class="item">
+        <div class="head">J&amp;J partners with NVIDIA Isaac for Healthcare to accelerate surgical robotics <a href="https://www.jnj.com/media-center/press-releases/johnson-johnson-to-advance-robotics-development-with-nvidia-isaac-for-healthcare">↗</a></div>
+        <div class="why">Physical AI enters the OR. The medical robotics market is heading toward $10.71B by year end.</div>
+      </li>
+      <li class="item">
+        <div class="head">GE HealthCare building autonomous AI-powered X-ray and ultrasound systems <a href="https://blogs.nvidia.com/blog/ai-in-healthcare-survey-2026/">↗</a></div>
+        <div class="why">63% of healthcare professionals already actively use AI. The shift from pilot to production is real and fast.</div>
+      </li>
+      <li class="item">
+        <div class="head">Google's TurboQuant cuts KV cache memory overhead significantly — ICLR 2026 <a href="https://arxiv.org/list/cs.AI/current">↗</a></div>
+        <div class="why">Inference efficiency research goes practical. Long-context processing costs for medical and scientific AI will drop.</div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="keywords">
+    <div class="label">Keywords of the Week</div>
+    <span class="kw kw-lg">Claude Fable 5</span>
+    <span class="kw kw-md">MCP</span>
+    <span class="kw kw-lg">Agents</span>
+    <span class="kw kw-sm">TurboQuant</span>
+    <span class="kw kw-md">EU AI Act</span>
+    <span class="kw kw-sm">PhysicsX</span>
+    <span class="kw kw-lg">Venture Capital</span>
+    <span class="kw kw-md">MAI Models</span>
+    <span class="kw kw-sm">GPT-5.5</span>
+    <span class="kw kw-md">Healthcare Robotics</span>
+    <span class="kw kw-sm">Gemma 4</span>
+    <span class="kw kw-lg">Regulation</span>
+    <span class="kw kw-sm">Microsoft Foundry</span>
+    <span class="kw kw-md">Safety</span>
+    <span class="kw kw-sm">Nemotron</span>
+  </section>
+
+  <section class="watch">
+    <div class="kicker">Watch Next Week</div>
+    <p>Colorado's AI Act goes live June 30 as America's first state-level AI regulation — expect interpretive disputes in the first days of enforcement. Independent benchmark results for Claude Fable 5 should also start rolling in, enabling a real apples-to-apples comparison with GPT-5.5. And with the EU AI Act's full enforcement date (Aug 2) approaching, expect a wave of corporate compliance announcements.</p>
+  </section>
+
+  <footer class="foot">
+    <h4>Sources</h4>
+    <ol>
+      <li>CNBC — Anthropic Claude Fable 5 · <a href="https://www.cnbc.com/2026/06/09/anthropic-mythos-claude-fable-5.html">cnbc.com</a></li>
+      <li>Microsoft AI — MAI Models · <a href="https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/">microsoft.ai</a></li>
+      <li>Crunchbase — Q1 2026 VC Record · <a href="https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/">crunchbase.com</a></li>
+      <li>EU Digital Strategy — EU AI Act · <a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai">ec.europa.eu</a></li>
+      <li>White House — AI Executive Order · <a href="https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/">whitehouse.gov</a></li>
+      <li>Toloka — MCP Ecosystem · <a href="https://toloka.ai/blog/the-future-of-mcp-enterprise-adoption/">toloka.ai</a></li>
+      <li>Microsoft Foundry Blog · <a href="https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-build-2026/">devblogs.microsoft.com</a></li>
+      <li>J&amp;J × NVIDIA Isaac · <a href="https://www.jnj.com/media-center/press-releases/johnson-johnson-to-advance-robotics-development-with-nvidia-isaac-for-healthcare">jnj.com</a></li>
+      <li>NVIDIA Healthcare Survey 2026 · <a href="https://blogs.nvidia.com/blog/ai-in-healthcare-survey-2026/">nvidia.com</a></li>
+      <li>arXiv AI — TurboQuant · <a href="https://arxiv.org/list/cs.AI/current">arxiv.org</a></li>
+    </ol>
+    <div>Generated June 12, 2026 · This Week in AI is auto-assembled from public sources.</div>
+  </footer>
+
+</div>
+</body>
+</html>

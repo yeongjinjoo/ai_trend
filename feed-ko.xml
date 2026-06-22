@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>이번 주 AI 트렌드</title>
+  <link>https://example.pages.dev/</link>
+  <atom:link href="https://example.pages.dev/feed-ko.xml" rel="self" type="application/rss+xml"/>
+  <description>매주 4개 언어(영어·중국어·일본어·한국어)로 정리하는 글로벌 AI 트렌드.</description>
+  <language>ko</language>
+  <lastBuildDate>Mon, 22 Jun 2026 14:42:02 GMT</lastBuildDate>
+  <item>
+    <title>에이전트 시대의 개막 선언</title>
+    <link>https://example.pages.dev/2026-06-20/ko/ai-trends-2026-06-20-ko.html</link>
+    <guid isPermaLink="true">https://example.pages.dev/2026-06-20/ko/ai-trends-2026-06-20-ko.html</guid>
+    <pubDate>Sat, 20 Jun 2026 09:00:00 GMT</pubDate>
+    <description>이번 주는 Microsoft가 Build 2026에서 Windows를 AI 에이전트 플랫폼으로 공식 선언하면서 업계 전체가 들썩였다. 모델 출시는 그 어느 때보다 빠르고, 중국 모델들은 서방 플래그십과 사실상 동급에 올랐으며, 콜로라도는 AI 규제를 반 년 늦추기로 했다. 조용한 주는 아니었다.</description>
+  </item>
+  <item>
+    <title>Fable 5 등장, 모델 전쟁 새 국면</title>
+    <link>https://example.pages.dev/2026-06-12/ko/ai-trends-2026-06-12-ko.html</link>
+    <guid isPermaLink="true">https://example.pages.dev/2026-06-12/ko/ai-trends-2026-06-12-ko.html</guid>
+    <pubDate>Fri, 12 Jun 2026 09:00:00 GMT</pubDate>
+    <description>이번 주는 조용할 틈이 없었다. Anthropic이 Claude Fable 5를 깜짝 출시하며 벤치마크 1위를 탈환했고, Microsoft는 무려 7개의 자체 MAI 모델을 한꺼번에 공개했다. 한편 EU AI Act 전면 시행(8월 2일)을 앞두고 기업들의 컴플라이언스 발걸음이 빨라졌고, Q1 VC 투자가 사상 최초로 3,000억 달러를 돌파했다는 소식도 나왔다. 한마디로, AI 업계에 또 다른 가속도가 붙은 한 주였다.</description>
+  </item>
+  <item>
+    <title>Anthropic이 상장을 선언했다</title>
+    <link>https://example.pages.dev/2026-06-05/ko/ai-trends-2026-06-05-ko.html</link>
+    <guid isPermaLink="true">https://example.pages.dev/2026-06-05/ko/ai-trends-2026-06-05-ko.html</guid>
+    <pubDate>Fri, 05 Jun 2026 09:00:00 GMT</pubDate>
+    <description>이번 주 AI판은 조용할 틈이 없었다. Anthropic이 SEC에 S-1을 제출했고, Alphabet은 84조 원 규모 주식을 찍어냈으며, Microsoft는 Build 2026에서 Windows를 에이전트 OS로 선언했다. 여기에 NVIDIA까지 1 페타플롭 AI 칩을 개인용 PC에 꽂겠다고 나섰으니, 이번 주 AI 뉴스는 &quot;모델&quot; 이야기가 아니라 &quot;돈과 플랫폼&quot; 이야기였다.</description>
+  </item>
+  <item>
+    <title>Anthropic이 OpenAI를 앞지르고, Google은 에이전트 시대를 선언하고, EU는 한발 물러섰다</title>
+    <link>https://example.pages.dev/2026-06-01/ko/ai-trends-2026-06-01-ko.html</link>
+    <guid isPermaLink="true">https://example.pages.dev/2026-06-01/ko/ai-trends-2026-06-01-ko.html</guid>
+    <pubDate>Mon, 01 Jun 2026 09:00:00 GMT</pubDate>
+    <description>Anthropic이 650억 달러를 조달하고, Google이 I/O에서 새 모델 패밀리를 발표하고, EU가 AI 핵심 법안을 전면 수정하는 일이 같은 주에 벌어졌다. 그 중에서도 Anthropic이 밸류에이션 순위에서 OpenAI를 추월한 사건이 가장 강렬하게 남는다. 한편 에이전트 메모리는 &#39;흥미로운 연구 주제&#39;에서 &#39;실제 보안 위협&#39;으로 격상됐고, 병원 로봇은 더 이상 미래 이야기가 아니다.</description>
+  </item>
+</channel>
+</rss>

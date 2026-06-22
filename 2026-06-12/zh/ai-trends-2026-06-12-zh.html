@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>本周AI动态 — 2026年6月12日</title>
+<style>
+  :root {
+    --ink: #1a1a1a; --muted: #6b6b6b; --accent: #d4541b;
+    --bg: #fafaf7; --card: #ffffff; --rule: #e8e6df;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans SC", sans-serif; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+  header.masthead { border-bottom: 2px solid var(--ink); padding-bottom: 16px; margin-bottom: 32px; }
+  .kicker { font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); font-weight: 700; }
+  h1.title { font-size: 34px; line-height: 1.2; margin: 6px 0 4px; }
+  .tagline { color: var(--muted); font-size: 15px; margin: 0; }
+  .intro { font-size: 16px; color: var(--ink); margin: 0 0 40px; }
+  .story-of-week { background: var(--card); border-left: 4px solid var(--accent); padding: 24px 28px; margin: 0 0 40px; border-radius: 4px; }
+  .story-of-week h2 { font-size: 22px; margin: 6px 0 12px; line-height: 1.3; }
+  .story-of-week p { margin: 0 0 10px; font-size: 15px; }
+  .theme { margin: 0 0 32px; }
+  .theme h3 { font-size: 19px; margin: 0 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--rule); }
+  .theme ul { list-style: none; padding: 0; margin: 0; }
+  .theme .item { padding: 10px 0; border-bottom: 1px dashed var(--rule); }
+  .theme .item:last-child { border-bottom: none; }
+  .theme .item .head { font-weight: 600; }
+  .theme .item .why { color: var(--muted); font-size: 14px; margin-top: 2px; }
+  a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; }
+  a:hover { border-bottom-color: var(--accent); }
+  .keywords { background: var(--card); padding: 28px; border-radius: 6px; text-align: center; margin: 40px 0; border: 1px solid var(--rule); }
+  .keywords .label { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 16px; }
+  .kw { display: inline-block; margin: 4px 8px; }
+  .kw-lg { font-size: 26px; font-weight: 700; }
+  .kw-md { font-size: 18px; font-weight: 600; color: var(--accent); }
+  .kw-sm { font-size: 14px; color: var(--muted); }
+  .watch { background: var(--card); border: 1px dashed var(--accent); padding: 20px 24px; border-radius: 4px; margin: 0 0 40px; }
+  .watch p { margin: 6px 0 0; }
+  footer.foot { border-top: 1px solid var(--rule); padding-top: 20px; margin-top: 40px; color: var(--muted); font-size: 13px; }
+  footer.foot h4 { color: var(--ink); margin: 0 0 8px; font-size: 14px; }
+  footer.foot ol { padding-left: 18px; margin: 0 0 16px; }
+  footer.foot ol li { margin-bottom: 4px; word-break: break-all; }
+</style>
+  <!-- BUILD_SITE:META:START (자동 생성 — 수정 금지) -->
+  <link rel="canonical" href="https://example.pages.dev/2026-06-12/zh/ai-trends-2026-06-12-zh.html">
+  <link rel="alternate" hreflang="en" href="https://example.pages.dev/2026-06-12/en/ai-trends-2026-06-12-en.html">
+  <link rel="alternate" hreflang="zh" href="https://example.pages.dev/2026-06-12/zh/ai-trends-2026-06-12-zh.html">
+  <link rel="alternate" hreflang="ja" href="https://example.pages.dev/2026-06-12/ja/ai-trends-2026-06-12-ja.html">
+  <link rel="alternate" hreflang="ko" href="https://example.pages.dev/2026-06-12/ko/ai-trends-2026-06-12-ko.html">
+  <link rel="alternate" hreflang="x-default" href="https://example.pages.dev/2026-06-12/en/ai-trends-2026-06-12-en.html">
+  <meta name="description" content="这周一点都不平静。Anthropic 突然发布 Claude Fable 5，重夺基准测试榜首；Microsoft 一口气公开了 7 款自研 MAI 模型；EU AI Act 全面执行（8月2日）倒计时，企业合规步伐加快；而 Q1 风险投资首次突破 3000 亿美元大关。这是 AI 行业又一次集体加速的一周。">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="本周 AI 趋势">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:title" content="Fable 5 登场，模型竞赛进入新阶段">
+  <meta property="og:description" content="这周一点都不平静。Anthropic 突然发布 Claude Fable 5，重夺基准测试榜首；Microsoft 一口气公开了 7 款自研 MAI 模型；EU AI Act 全面执行（8月2日）倒计时，企业合规步伐加快；而 Q1 风险投资首次突破 3000 亿美元大关。这是 AI 行业又一次集体加速的一周。">
+  <meta property="og:url" content="https://example.pages.dev/2026-06-12/zh/ai-trends-2026-06-12-zh.html">
+  <meta property="og:image" content="https://example.pages.dev/og-default.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Fable 5 登场，模型竞赛进入新阶段">
+  <meta name="twitter:description" content="这周一点都不平静。Anthropic 突然发布 Claude Fable 5，重夺基准测试榜首；Microsoft 一口气公开了 7 款自研 MAI 模型；EU AI Act 全面执行（8月2日）倒计时，企业合规步伐加快；而 Q1 风险投资首次突破 3000 亿美元大关。这是 AI 行业又一次集体加速的一周。">
+  <meta name="twitter:image" content="https://example.pages.dev/og-default.svg">
+  <!-- BUILD_SITE:META:END -->
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="kicker">本周AI动态 · 2026年6月12日</div>
+    <h1 class="title">Fable 5 登场，模型竞赛进入新阶段</h1>
+    <p class="tagline">2026年6月5日 – 6月12日 · 模型、监管、投资三线齐动</p>
+  </header>
+
+  <p class="intro">这周一点都不平静。Anthropic 突然发布 Claude Fable 5，重夺基准测试榜首；Microsoft 一口气公开了 7 款自研 MAI 模型；EU AI Act 全面执行（8月2日）倒计时，企业合规步伐加快；而 Q1 风险投资首次突破 3000 亿美元大关。这是 AI 行业又一次集体加速的一周。</p>
+
+  <section class="story-of-week">
+    <div class="kicker">本周头条</div>
+    <h2>Anthropic 发布 Claude Fable 5 — 基准测试榜首易主</h2>
+    <p>6月9日，Anthropic 正式推出 Claude Fable 5，付费用户和企业客户优先体验。该模型在软件工程、知识工作、视觉、科学研究等几乎所有主流基准上均刷新最高成绩。定价为每百万输入 token $10，每百万输出 token $50，是 Claude Opus 4.8 的两倍。</p>
+    <p>新模型内置强化安全机制，对网络安全、生物学等高风险领域的回答进行拦截。Anthropic 还同步宣布 Claude Corps（青年奖学金计划）及 Project Glasswing 向 15 个国家 150 余家机构的扩展，传递出超越单纯模型发布的信号。</p>
+    <p><a href="https://www.cnbc.com/2026/06/09/anthropic-mythos-claude-fable-5.html">查看原文 →</a></p>
+  </section>
+
+  <section class="theme">
+    <h3>🤖 模型大战 — 前沿模型集中涌现</h3>
+    <ul>
+      <li class="item">
+        <div class="head">Microsoft 同步发布 MAI 7款模型 <a href="https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/">↗</a></div>
+        <div class="why">涵盖 MAI-Thinking-1（旗舰推理）和 MAI-Code-1-Flash（GitHub Copilot 专属）。这是摆脱 OpenAI 依赖的明确宣示。</div>
+      </li>
+      <li class="item">
+        <div class="head">OpenAI 发布 GPT-5.5，输入 $1.50 / 输出 $9 每百万 token <a href="https://wavespeed.ai/blog/posts/june-2026-ai-launch-wave/">↗</a></div>
+        <div class="why">6月有望成为今年前沿模型发布最密集的月份，价格战正式打响。</div>
+      </li>
+      <li class="item">
+        <div class="head">NVIDIA Nemotron 550B、Google Gemma 4 等开源模型相继落地 <a href="https://llm-stats.com/llm-updates">↗</a></div>
+        <div class="why">闭源与开源的差距正在迅速缩小，平均每两天就有一款新模型出现。</div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="theme">
+    <h3>💰 投资热潮 — Q1 风险投资突破 3000 亿美元</h3>
+    <ul>
+      <li class="item">
+        <div class="head">2026年 Q1 全球风投首次超过 3000 亿美元 <a href="https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/">↗</a></div>
+        <div class="why">其中 AI 吸纳 2420 亿美元，占比 80%。说"AI 正在重构风险投资市场"已不是比喻。</div>
+      </li>
+      <li class="item">
+        <div class="head">Anthropic 完成 Series H 后估值达 9650 亿美元，成独立 AI 独角兽之首 <a href="https://qubit.capital/blog/ai-startup-fundraising-trends">↗</a></div>
+        <div class="why">破万亿只是时间问题。</div>
+      </li>
+      <li class="item">
+        <div class="head">PhysicsX 完成 3 亿美元 C 轮融资，主打"大型物理模型" <a href="https://aifundingtracker.com/top-50-ai-startups/">↗</a></div>
+        <div class="why">工业 AI 深水区：航空、半导体、国防仿真领域的新军备竞赛。</div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="theme">
+    <h3>⚖️ 监管落地 — 欧美多线并行</h3>
+    <ul>
+      <li class="item">
+        <div class="head">EU AI Act 将于 8月2日全面生效，留给企业的时间不多了 <a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai">↗</a></div>
+        <div class="why">禁止事项和治理规则已提前生效；8月起高风险 AI 系统义务正式适用。</div>
+      </li>
+      <li class="item">
+        <div class="head">科罗拉多州 AI 法案 6月30日生效——美国首部州级 AI 法规 <a href="https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/">↗</a></div>
+        <div class="why">要求安全风险管理、影响评估及防止算法歧视，或将成为其他州立法蓝本。</div>
+      </li>
+      <li class="item">
+        <div class="head">白宫发布 AI 创新与安全行政令 <a href="https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/">↗</a></div>
+        <div class="why">联邦层面：放松监管。与欧盟方向截然相反，跨国企业被迫双轨合规。</div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="theme">
+    <h3>🔧 智能体基础设施 — MCP 正在吞噬生态</h3>
+    <ul>
+      <li class="item">
+        <div class="head">MCP 公开服务器突破 9400 个，SDK 月下载量达 9700 万次 <a href="https://toloka.ai/blog/the-future-of-mcp-enterprise-adoption/">↗</a></div>
+        <div class="why">发布 16 个月增长 4750%，正固化为智能体通信事实标准。</div>
+      </li>
+      <li class="item">
+        <div class="head">Microsoft Foundry 即将 GA：智能体可直接部署到 Teams 和 M365 Copilot <a href="https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-build-2026/">↗</a></div>
+        <div class="why">员工无需切换工具，企业采用速度将显著加快。</div>
+      </li>
+      <li class="item">
+        <div class="head">Claude Agent SDK 6月15日起单独计费 <a href="https://releasebot.io/updates/anthropic">↗</a></div>
+        <div class="why">免费缓冲期结束，智能体成本优化成为开发者新课题。</div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="theme">
+    <h3>🏥 AI × 医疗 — 手术室与影像科同步变革</h3>
+    <ul>
+      <li class="item">
+        <div class="head">强生携手 NVIDIA Isaac for Healthcare 加速手术机器人研发 <a href="https://www.jnj.com/media-center/press-releases/johnson-johnson-to-advance-robotics-development-with-nvidia-isaac-for-healthcare">↗</a></div>
+        <div class="why">物理 AI 进入手术室。医疗机器人市场规模正冲向 107 亿美元。</div>
+      </li>
+      <li class="item">
+        <div class="head">GE HealthCare 开发自主 AI X 光和超声系统 <a href="https://blogs.nvidia.com/blog/ai-in-healthcare-survey-2026/">↗</a></div>
+        <div class="why">医疗从业者 63% 已在实际使用 AI，从"试点"到"生产"的转型正在提速。</div>
+      </li>
+      <li class="item">
+        <div class="head">谷歌 TurboQuant 大幅降低 KV 缓存内存开销 — ICLR 2026 <a href="https://arxiv.org/list/cs.AI/current">↗</a></div>
+        <div class="why">推理效率研究走向实用，医疗和科研场景的长上下文处理成本将随之下降。</div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="keywords">
+    <div class="label">本周关键词</div>
+    <span class="kw kw-lg">Claude Fable 5</span>
+    <span class="kw kw-md">MCP</span>
+    <span class="kw kw-lg">智能体</span>
+    <span class="kw kw-sm">TurboQuant</span>
+    <span class="kw kw-md">EU AI Act</span>
+    <span class="kw kw-sm">PhysicsX</span>
+    <span class="kw kw-lg">风险投资</span>
+    <span class="kw kw-md">MAI 模型</span>
+    <span class="kw kw-sm">GPT-5.5</span>
+    <span class="kw kw-md">医疗机器人</span>
+    <span class="kw kw-sm">Gemma 4</span>
+    <span class="kw kw-lg">监管</span>
+    <span class="kw kw-sm">Microsoft Foundry</span>
+    <span class="kw kw-md">安全性</span>
+    <span class="kw kw-sm">Nemotron</span>
+  </section>
+
+  <section class="watch">
+    <div class="kicker">下周关注</div>
+    <p>科罗拉多州 AI 法案将于 6月30日作为美国首部州级 AI 法规正式生效，预计执行首周解读争议不断。与此同时，Claude Fable 5 的独立基准测试结果将陆续出炉，届时可与 GPT-5.5 进行真实横向对比。EU AI Act 全面执行（8月2日）也近在眼前，企业合规公告将接踵而至。</p>
+  </section>
+
+  <footer class="foot">
+    <h4>参考来源</h4>
+    <ol>
+      <li>CNBC — Anthropic Claude Fable 5 · <a href="https://www.cnbc.com/2026/06/09/anthropic-mythos-claude-fable-5.html">cnbc.com</a></li>
+      <li>Microsoft AI — MAI 模型 · <a href="https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/">microsoft.ai</a></li>
+      <li>Crunchbase — Q1 2026 风投记录 · <a href="https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/">crunchbase.com</a></li>
+      <li>欧盟数字战略 — EU AI Act · <a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai">ec.europa.eu</a></li>
+      <li>白宫 — AI 行政令 · <a href="https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/">whitehouse.gov</a></li>
+      <li>Toloka — MCP 生态 · <a href="https://toloka.ai/blog/the-future-of-mcp-enterprise-adoption/">toloka.ai</a></li>
+      <li>强生 × NVIDIA · <a href="https://www.jnj.com/media-center/press-releases/johnson-johnson-to-advance-robotics-development-with-nvidia-isaac-for-healthcare">jnj.com</a></li>
+      <li>arXiv AI — TurboQuant · <a href="https://arxiv.org/list/cs.AI/current">arxiv.org</a></li>
+    </ol>
+    <div>生成日期：2026年6月12日 · 本周AI动态由公开资料自动汇编</div>
+  </footer>
+
+</div>
+</body>
+</html>

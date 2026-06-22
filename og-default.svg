@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fafaf7"/>
+  <rect width="1200" height="14" fill="#d4541b"/>
+  <text x="80" y="170" font-family="Segoe UI, Arial, sans-serif" font-size="40" fill="#d4541b" font-weight="700" letter-spacing="6">THIS WEEK IN AI</text>
+  <text x="80" y="320" font-family="Segoe UI, Arial, sans-serif" font-size="86" fill="#1a1a1a" font-weight="800">Global AI trends,</text>
+  <text x="80" y="420" font-family="Segoe UI, Arial, sans-serif" font-size="86" fill="#1a1a1a" font-weight="800">every week.</text>
+  <text x="80" y="540" font-family="Segoe UI, Arial, sans-serif" font-size="40" fill="#6b6b6b">English &#183; 中文 &#183; 日本語 &#183; 한국어</text>
+</svg>

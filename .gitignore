@@ -1,0 +1,12 @@
+# OS / 편집기 부산물
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# Node (현재 의존성은 없지만 혹시 모를 로컬 설치 대비)
+node_modules/
+npm-debug.log*
+
+# 내부 작업 문서 (공개 저장소에서 제외 — 사이트 콘텐츠가 아님)
+CLAUDE.md

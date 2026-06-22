@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>이번 주 AI 동향 — 2026년 6월 1일</title>
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --muted: #6b6b6b;
+    --accent: #d4541b;
+    --bg: #fafaf7;
+    --card: #ffffff;
+    --rule: #e8e6df;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", -apple-system, sans-serif;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+  header.masthead { border-bottom: 2px solid var(--ink); padding-bottom: 16px; margin-bottom: 32px; }
+  .kicker { font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); font-weight: 700; }
+  h1.title { font-size: 32px; line-height: 1.25; margin: 6px 0 4px; }
+  .tagline { color: var(--muted); font-size: 15px; margin: 0; }
+  .intro { font-size: 17px; color: var(--ink); margin: 0 0 40px; }
+  .story-of-week { background: var(--card); border-left: 4px solid var(--accent); padding: 24px 28px; margin: 0 0 40px; border-radius: 4px; box-shadow: 0 1px 0 rgba(0,0,0,0.03); }
+  .story-of-week h2 { font-size: 22px; margin: 6px 0 12px; line-height: 1.35; }
+  .story-of-week p { margin: 0 0 10px; font-size: 16px; }
+  .theme { margin: 0 0 32px; }
+  .theme h3 { font-size: 19px; margin: 0 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--rule); }
+  .theme ul { list-style: none; padding: 0; margin: 0; }
+  .theme .item { padding: 10px 0; border-bottom: 1px dashed var(--rule); }
+  .theme .item:last-child { border-bottom: none; }
+  .theme .item .head { font-weight: 600; color: var(--ink); }
+  .theme .item .why { color: var(--muted); font-size: 15px; margin-top: 2px; }
+  a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; }
+  a:hover { border-bottom-color: var(--accent); }
+  .keywords { background: var(--card); padding: 28px; border-radius: 6px; text-align: center; margin: 40px 0; border: 1px solid var(--rule); }
+  .keywords .label { font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 16px; }
+  .kw { display: inline-block; margin: 4px 8px; color: var(--ink); }
+  .kw-lg { font-size: 26px; font-weight: 700; }
+  .kw-md { font-size: 18px; font-weight: 600; color: var(--accent); }
+  .kw-sm { font-size: 14px; color: var(--muted); }
+  .watch { background: var(--card); border: 1px dashed var(--accent); padding: 20px 24px; border-radius: 4px; margin: 0 0 40px; }
+  .watch p { margin: 6px 0 0; }
+  footer.foot { border-top: 1px solid var(--rule); padding-top: 20px; margin-top: 40px; color: var(--muted); font-size: 13px; }
+  footer.foot h4 { color: var(--ink); margin: 0 0 8px; font-size: 14px; }
+  footer.foot ol { padding-left: 18px; margin: 0 0 16px; }
+  footer.foot ol li { margin-bottom: 4px; word-break: break-all; }
+</style>
+  <!-- BUILD_SITE:META:START (자동 생성 — 수정 금지) -->
+  <link rel="canonical" href="https://example.pages.dev/2026-06-01/ko/ai-trends-2026-06-01-ko.html">
+  <link rel="alternate" hreflang="ko" href="https://example.pages.dev/2026-06-01/ko/ai-trends-2026-06-01-ko.html">
+  <link rel="alternate" hreflang="x-default" href="https://example.pages.dev/2026-06-01/ko/ai-trends-2026-06-01-ko.html">
+  <meta name="description" content="Anthropic이 650억 달러를 조달하고, Google이 I/O에서 새 모델 패밀리를 발표하고, EU가 AI 핵심 법안을 전면 수정하는 일이 같은 주에 벌어졌다. 그 중에서도 Anthropic이 밸류에이션 순위에서 OpenAI를 추월한 사건이 가장 강렬하게 남는다. 한편 에이전트 메모리는 &#39;흥미로운 연구 주제&#39;에서 &#39;실제 보안 위협&#39;으로 격상됐고, 병원 로봇은 더 이상 미래 이야기가 아니다.">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="이번 주 AI 트렌드">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:title" content="Anthropic이 OpenAI를 앞지르고, Google은 에이전트 시대를 선언하고, EU는 한발 물러섰다">
+  <meta property="og:description" content="Anthropic이 650억 달러를 조달하고, Google이 I/O에서 새 모델 패밀리를 발표하고, EU가 AI 핵심 법안을 전면 수정하는 일이 같은 주에 벌어졌다. 그 중에서도 Anthropic이 밸류에이션 순위에서 OpenAI를 추월한 사건이 가장 강렬하게 남는다. 한편 에이전트 메모리는 &#39;흥미로운 연구 주제&#39;에서 &#39;실제 보안 위협&#39;으로 격상됐고, 병원 로봇은 더 이상 미래 이야기가 아니다.">
+  <meta property="og:url" content="https://example.pages.dev/2026-06-01/ko/ai-trends-2026-06-01-ko.html">
+  <meta property="og:image" content="https://example.pages.dev/og-default.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Anthropic이 OpenAI를 앞지르고, Google은 에이전트 시대를 선언하고, EU는 한발 물러섰다">
+  <meta name="twitter:description" content="Anthropic이 650억 달러를 조달하고, Google이 I/O에서 새 모델 패밀리를 발표하고, EU가 AI 핵심 법안을 전면 수정하는 일이 같은 주에 벌어졌다. 그 중에서도 Anthropic이 밸류에이션 순위에서 OpenAI를 추월한 사건이 가장 강렬하게 남는다. 한편 에이전트 메모리는 &#39;흥미로운 연구 주제&#39;에서 &#39;실제 보안 위협&#39;으로 격상됐고, 병원 로봇은 더 이상 미래 이야기가 아니다.">
+  <meta name="twitter:image" content="https://example.pages.dev/og-default.svg">
+  <!-- BUILD_SITE:META:END -->
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="kicker">이번 주 AI 동향 · 2026년 6월 1일</div>
+      <h1 class="title">Anthropic이 OpenAI를 앞지르고, Google은 에이전트 시대를 선언하고, EU는 한발 물러섰다</h1>
+      <p class="tagline">2026년 5월 26일 – 6월 1일 · 돈, 모델, 규제가 동시에 요동친 한 주</p>
+    </header>
+
+    <p class="intro">Anthropic이 650억 달러를 조달하고, Google이 I/O에서 새 모델 패밀리를 발표하고, EU가 AI 핵심 법안을 전면 수정하는 일이 같은 주에 벌어졌다. 그 중에서도 Anthropic이 밸류에이션 순위에서 OpenAI를 추월한 사건이 가장 강렬하게 남는다. 한편 에이전트 메모리는 '흥미로운 연구 주제'에서 '실제 보안 위협'으로 격상됐고, 병원 로봇은 더 이상 미래 이야기가 아니다.</p>
+
+    <section class="story-of-week">
+      <div class="kicker">이번 주의 핵심 스토리</div>
+      <h2>Anthropic, 650억 달러 조달 — 유니콘 순위에서 OpenAI 추월</h2>
+      <p>5월 28일, Anthropic은 시리즈 H 라운드에서 650억 달러를 조달하며 포스트머니 밸류에이션 9,650억 달러를 기록했다. 이는 OpenAI의 8,520억 달러를 넘어서며 세계에서 가장 가치 있는 비상장 AI 기업이 됐다. 라운드는 Altimeter, Dragoneer, Greenoaks, Sequoia 등이 공동 주도했으며, Amazon, 삼성, SK하이닉스, 마이크론이 포함된 전략적 인프라 파트너로부터 150억 달러가 추가됐다.</p>
+      <p>이게 마지막 비공개 라운드일 가능성이 높다. 연환산 매출은 470억 달러를 돌파했고, WSJ에 따르면 첫 영업이익 달성을 앞두고 130% 매출 성장이 예상된다. 1조 달러 프런티어 AI 기업은 이제 가설이 아니다.</p>
+      <p><a href="https://www.anthropic.com/news/series-h">원문 보기 →</a></p>
+    </section>
+
+    <section class="theme">
+      <h3>🔍 Google I/O: Gemini, 완전한 에이전트 모드로</h3>
+      <ul>
+        <li class="item">
+          <div class="head">Gemini 3.5 Flash 정식 출시 <a href="https://9to5google.com/2026/05/19/google-io-2026-news/">↗</a></div>
+          <div class="why">Google 3.5 시리즈의 첫 모델. 5월 19일 I/O에서 GA, 입력 $1.50/출력 $9(백만 토큰 기준). 코딩·에이전트 벤치마크에서 Gemini 3.1 Pro 능가. Gemini 3.5 Pro는 6월 출시 예정.</div>
+        </li>
+        <li class="item">
+          <div class="head">Gemini Spark — 질문에 답하는 게 아니라 직접 실행하는 어시스턴트 <a href="https://blog.google/innovation-and-ai/sundar-pichai-io-2026/">↗</a></div>
+          <div class="why">일정 잡기, 검색, 파일 관리 등을 사용자 대신 직접 처리한다. 미국 내 Google AI Ultra 구독자에게 우선 출시. 수동적 챗봇에서 능동적 에이전트로의 전환점.</div>
+        </li>
+        <li class="item">
+          <div class="head">Gemini Omni Flash — 무엇이든 넣으면 영상이 나온다 <a href="https://developers.googleblog.com/all-the-news-from-the-google-io-2026-developer-keynote/">↗</a></div>
+          <div class="why">이미지·오디오·영상·텍스트 모두 입력 가능, 실제 세계 지식 기반의 편집 가능한 영상 출력. Antigravity 2.0과 CLI도 함께 출시. 에이전트 인프라가 Google의 핵심 제품이 됐다.</div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="theme">
+      <h3>⚖️ EU AI법, 제정 이후 첫 대규모 개정</h3>
+      <ul>
+        <li class="item">
+          <div class="head">EU 디지털 옴니버스 AI 협정 — 5월 7일 잠정 합의 <a href="https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/">↗</a></div>
+          <div class="why">고위험 AI 컴플라이언스 기한이 2026년 8월에서 2027년 12월로 16개월 연장됐다. 정식 채택은 6월, 관보 게재는 7월 예정.</div>
+        </li>
+        <li class="item">
+          <div class="head">새로운 금지 조항 추가 — CSAM·비동의 친밀 영상 AI 생성 명시적 금지 <a href="https://www.globalpolicywatch.com/2026/05/eu-ai-act-update-timeline-relief-targeted-simplification-and-new-prohibitions/">↗</a></div>
+          <div class="why">일정은 늦춰지지만 규제의 하한선은 오히려 높아졌다. 두 가지 신규 금지 조항 모두 2026년 12월 발효. 딥페이크 라벨링 의무도 2026년 12월로 4개월 유예.</div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="theme">
+      <h3>🧠 에이전트 메모리: 연구 주제에서 보안 위협으로</h3>
+      <ul>
+        <li class="item">
+          <div class="head">LLM 에이전트의 새로운 공격 표면 — 메모리 <a href="https://llms3.com/blog/when-memory-became-the-attack-surface-may-2026">↗</a></div>
+          <div class="why">연구진이 에이전트 메모리 공격·방어 모델을 공식화했다 (arXiv 2601.05504). 핵심 발견: 메모리 보안은 더 좋은 벡터DB로 해결되지 않는다 — 모델 자체가 자신의 메모리 관리에 훈련된 참여자여야 한다.</div>
+        </li>
+        <li class="item">
+          <div class="head">BEAM 논문 (ICLR 2026) — 100만 토큰을 넘어서 <a href="https://llms3.com/blog/answering-the-memory-wall-may-2026">↗</a></div>
+          <div class="why">LIGHT 인지 프레임워크로 장기 메모리를 벤치마킹. Mem0, Zep 모두 이번 달 RL 기반 CRUD 정책을 출시. 메모리 인프라 레이어가 빠르게 성숙하고 있다.</div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="theme">
+      <h3>🛠️ 개발 도구: 한 주에 모든 게 다 나왔다</h3>
+      <ul>
+        <li class="item">
+          <div class="head">AWS MCP 서버 GA (5월 6일) <a href="https://whatllm.org/blog/new-ai-models-may-2026">↗</a></div>
+          <div class="why">MCP(Model Context Protocol)가 엔터프라이즈 표준 인프라로 자리잡고 있다.</div>
+        </li>
+        <li class="item">
+          <div class="head">OpenAI, GPT-Realtime-2와 GPT-5.5 Instant 출시 <a href="https://releasebot.io/updates/openai">↗</a></div>
+          <div class="why">GPT-Realtime-2(5월 8일): Realtime API에 GPT-5급 추론, 128K 컨텍스트, 병렬 도구 호출 지원. GPT-5.5 Instant(5월 5일): 새 ChatGPT 기본 모델, 고위험 프롬프트 환각률 약 50% 감소, 무료 플랜 지원.</div>
+        </li>
+        <li class="item">
+          <div class="head">Anthropic, 자체 호스팅 샌드박스 + MCP 터널 출시 <a href="https://www.digitalapplied.com/blog/ai-model-releases-may-2026-complete-tracker">↗</a></div>
+          <div class="why">규제 산업 엔터프라이즈가 완전히 격리된 환경에서 Claude를 운영할 수 있다. Microsoft Agent Framework 1.0도 출시 — 멀티 에이전트 그래프 오케스트레이션을 위한 .NET 프로덕션 SDK.</div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="theme">
+      <h3>🏥 피지컬 AI, 병원에 입성</h3>
+      <ul>
+        <li class="item">
+          <div class="head">J&J MONARCH QUEST, NVIDIA Isaac AI 탑재 출시 <a href="https://www.jnj.com/media-center/press-releases/johnson-johnson-to-advance-robotics-development-with-nvidia-isaac-for-healthcare">↗</a></div>
+          <div class="why">NVIDIA 풀스택 플랫폼 기반의 AI 강화 기관지경 로봇. 수술 로봇은 이제 파일럿이 아니라 상업적으로 확장되고 있다.</div>
+        </li>
+        <li class="item">
+          <div class="head">헬스케어·생명과학 전문가의 63%가 현재 AI 활용 중 <a href="https://blogs.nvidia.com/blog/ai-in-healthcare-survey-2026/">↗</a></div>
+          <div class="why">ROI 측정 가능한 의료 시스템의 절반 이상이 2배 이상 수익을 보고했다. 주요 활용 사례: 의료 영상(61%), 신약 개발(57%), 임상 의사결정 지원. 헬스케어 AI가 '탐색' 단계에서 '성과' 단계로 이동했다.</div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="keywords">
+      <div class="label">이번 주 키워드</div>
+      <span class="kw kw-lg">Anthropic</span>
+      <span class="kw kw-md">Gemini 3.5</span>
+      <span class="kw kw-lg">에이전트 메모리</span>
+      <span class="kw kw-sm">GPT-Realtime-2</span>
+      <span class="kw kw-md">EU AI 옴니버스</span>
+      <span class="kw kw-sm">Antigravity</span>
+      <span class="kw kw-lg">피지컬 AI</span>
+      <span class="kw kw-md">MCP</span>
+      <span class="kw kw-sm">9,650억 달러 밸류에이션</span>
+      <span class="kw kw-md">Cognition</span>
+      <span class="kw kw-sm">BEAM 논문</span>
+      <span class="kw kw-sm">헬스케어 로봇</span>
+      <span class="kw kw-md">프런티어 모델</span>
+      <span class="kw kw-sm">Gemini Spark</span>
+    </section>
+
+    <section class="watch">
+      <div class="kicker">다음 주 주목할 것</div>
+      <p>세 가지를 눈여겨보자. Gemini 3.5 Pro 출시(Sundar Pichai가 I/O에서 6월을 약속), EU AI법 정식 채택 투표(7월 관보 게재 예정), 그리고 Anthropic에 밸류에이션 1위를 빼앗긴 OpenAI의 다음 행보. 두 진영 모두 1조 달러 결승선이 눈앞에 보인다.</p>
+    </section>
+
+    <footer class="foot">
+      <h4>출처</h4>
+      <ol>
+        <li>Anthropic 시리즈 H 발표 — <a href="https://www.anthropic.com/news/series-h">anthropic.com/news/series-h</a></li>
+        <li>TechCrunch: Anthropic 650억 달러 — <a href="https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/">techcrunch.com</a></li>
+        <li>Google I/O 2026 — <a href="https://9to5google.com/2026/05/19/google-io-2026-news/">9to5google.com</a></li>
+        <li>EU Council AI 옴니버스 — <a href="https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/">consilium.europa.eu</a></li>
+        <li>Global Policy Watch: EU AI법 업데이트 — <a href="https://www.globalpolicywatch.com/2026/05/eu-ai-act-update-timeline-relief-targeted-simplification-and-new-prohibitions/">globalpolicywatch.com</a></li>
+        <li>LLMS3: 에이전트 메모리 보안 — <a href="https://llms3.com/blog/when-memory-became-the-attack-surface-may-2026">llms3.com</a></li>
+        <li>LLMS3: 메모리 월 — <a href="https://llms3.com/blog/answering-the-memory-wall-may-2026">llms3.com</a></li>
+        <li>WhatLLM: 2026년 5월 모델 — <a href="https://whatllm.org/blog/new-ai-models-may-2026">whatllm.org</a></li>
+        <li>OpenAI 릴리즈 노트 — <a href="https://releasebot.io/updates/openai">releasebot.io</a></li>
+        <li>Microsoft Agent Framework — <a href="https://devblogs.microsoft.com/agent-framework/">devblogs.microsoft.com</a></li>
+        <li>J&J NVIDIA Isaac — <a href="https://www.jnj.com/media-center/press-releases/johnson-johnson-to-advance-robotics-development-with-nvidia-isaac-for-healthcare">jnj.com</a></li>
+        <li>NVIDIA 헬스케어 AI 서베이 — <a href="https://blogs.nvidia.com/blog/ai-in-healthcare-survey-2026/">blogs.nvidia.com</a></li>
+        <li>Google Developers Blog I/O 2026 — <a href="https://developers.googleblog.com/all-the-news-from-the-google-io-2026-developer-keynote/">developers.googleblog.com</a></li>
+      </ol>
+      <div>생성일: 2026년 6월 1일 · 이번 주 AI 동향은 공개 출처 기반으로 자동 작성됩니다.</div>
+    </footer>
+  </div>
+</body>
+</html>
