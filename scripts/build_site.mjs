@@ -29,7 +29,7 @@ const SITE = {
   // CI에서는 SITE_URL 환경변수로 덮어쓸 수 있음.
   url: (process.env.SITE_URL || 'https://ai-trend-932.pages.dev').replace(/\/+$/, ''),
   brandLatin: 'This Week in AI',   // 로고/대표 로마자 표기
-  ogImage: 'og-default.svg',       // 공유 썸네일 (1200x630). PNG 권장은 PUBLISHING.md 참고
+  ogImage: 'og-default.png',       // 공유 썸네일 (1200x630). SVG 미지원 플랫폼(인스타/페북 등) 대응
   subscribeUrl: '',                // beehiiv 등 구독 페이지 생기면 채우기. 비우면 RSS로 대체
   publisher: { name: '', url: '' },// 개인 브랜드: 이름 / 링크(LinkedIn 등). 비우면 표시 안 함
   // 검색엔진 소유권 확인용 메타태그(content 값만). 빌드마다 index.html <head>에 자동 삽입됨.
