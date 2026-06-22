@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://example.pages.dev/sitemap.xml
+Sitemap: https://ai-trend-932.pages.dev/sitemap.xml

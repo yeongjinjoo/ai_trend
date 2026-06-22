@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>今週の AI トレンド</title>
-  <link>https://example.pages.dev/</link>
-  <atom:link href="https://example.pages.dev/feed-ja.xml" rel="self" type="application/rss+xml"/>
+  <link>https://ai-trend-932.pages.dev/</link>
+  <atom:link href="https://ai-trend-932.pages.dev/feed-ja.xml" rel="self" type="application/rss+xml"/>
   <description>毎週・多言語の AI 注目ニュースまとめ — 英語・中国語・日本語・韓国語。</description>
   <language>ja</language>
-  <lastBuildDate>Mon, 22 Jun 2026 14:42:02 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 22 Jun 2026 15:09:05 GMT</lastBuildDate>
   <item>
     <title>エージェント時代の幕開け宣言</title>
-    <link>https://example.pages.dev/2026-06-20/ja/ai-trends-2026-06-20-ja.html</link>
-    <guid isPermaLink="true">https://example.pages.dev/2026-06-20/ja/ai-trends-2026-06-20-ja.html</guid>
+    <link>https://ai-trend-932.pages.dev/2026-06-20/ja/ai-trends-2026-06-20-ja.html</link>
+    <guid isPermaLink="true">https://ai-trend-932.pages.dev/2026-06-20/ja/ai-trends-2026-06-20-ja.html</guid>
     <pubDate>Sat, 20 Jun 2026 09:00:00 GMT</pubDate>
     <description>今週、MicrosoftはBuild 2026でWindowsをAIエージェントプラットフォームとして公式に宣言しました。モデルのリリースはかつてないスピードで続き、中国のモデルは西洋のフラッグシップと実質的に同等の性能に達し、コロラド州はAI法を静かに後退させました。穏やかな一週間ではありませんでした。</description>
   </item>
   <item>
     <title>Fable 5 登場、モデル競争が新局面へ</title>
-    <link>https://example.pages.dev/2026-06-12/ja/ai-trends-2026-06-12-ja.html</link>
-    <guid isPermaLink="true">https://example.pages.dev/2026-06-12/ja/ai-trends-2026-06-12-ja.html</guid>
+    <link>https://ai-trend-932.pages.dev/2026-06-12/ja/ai-trends-2026-06-12-ja.html</link>
+    <guid isPermaLink="true">https://ai-trend-932.pages.dev/2026-06-12/ja/ai-trends-2026-06-12-ja.html</guid>
     <pubDate>Fri, 12 Jun 2026 09:00:00 GMT</pubDate>
     <description>静かな週とはほど遠かった。AnthropicがClaude Fable 5を電撃リリースしてベンチマーク首位を奪還し、Microsoftは自社開発のMAIモデルを一度に7本公開。EU AI Actの全面施行（8月2日）を前にコンプライアンス対応が加速し、Q1のVC投資が史上初めて3,000億ドルを突破したというニュースも飛び込んできた。AI業界がまた一段とギアを上げた一週間だった。</description>
   </item>

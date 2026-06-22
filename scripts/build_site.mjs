@@ -27,7 +27,7 @@ const ROOT = path.resolve(__dirname, '..'); // = ai-trend/ (사이트 루트)
 const SITE = {
   // 배포 후 실제 주소로 교체 (예: https://ai-weekly.pages.dev 또는 커스텀 도메인).
   // CI에서는 SITE_URL 환경변수로 덮어쓸 수 있음.
-  url: (process.env.SITE_URL || 'https://example.pages.dev').replace(/\/+$/, ''),
+  url: (process.env.SITE_URL || 'https://ai-trend-932.pages.dev').replace(/\/+$/, ''),
   brandLatin: 'This Week in AI',   // 로고/대표 로마자 표기
   ogImage: 'og-default.svg',       // 공유 썸네일 (1200x630). PNG 권장은 PUBLISHING.md 참고
   subscribeUrl: '',                // beehiiv 등 구독 페이지 생기면 채우기. 비우면 RSS로 대체

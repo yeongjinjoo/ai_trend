@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>本周 AI 趋势</title>
-  <link>https://example.pages.dev/</link>
-  <atom:link href="https://example.pages.dev/feed-zh.xml" rel="self" type="application/rss+xml"/>
+  <link>https://ai-trend-932.pages.dev/</link>
+  <atom:link href="https://ai-trend-932.pages.dev/feed-zh.xml" rel="self" type="application/rss+xml"/>
   <description>每周多语种 AI 要闻精选 — 提供英文、中文、日文、韩文版本。</description>
   <language>zh</language>
-  <lastBuildDate>Mon, 22 Jun 2026 14:42:02 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 22 Jun 2026 15:09:05 GMT</lastBuildDate>
   <item>
     <title>AI智能体时代正式开幕</title>
-    <link>https://example.pages.dev/2026-06-20/zh/ai-trends-2026-06-20-zh.html</link>
-    <guid isPermaLink="true">https://example.pages.dev/2026-06-20/zh/ai-trends-2026-06-20-zh.html</guid>
+    <link>https://ai-trend-932.pages.dev/2026-06-20/zh/ai-trends-2026-06-20-zh.html</link>
+    <guid isPermaLink="true">https://ai-trend-932.pages.dev/2026-06-20/zh/ai-trends-2026-06-20-zh.html</guid>
     <pubDate>Sat, 20 Jun 2026 09:00:00 GMT</pubDate>
     <description>本周，微软在Build 2026大会上正式宣布Windows成为AI智能体平台。模型发布速度前所未有，中国模型已与西方旗舰产品实力相当，科罗拉多州悄然撤回其AI法规。这绝对不是平静的一周。</description>
   </item>
   <item>
     <title>Fable 5 登场，模型竞赛进入新阶段</title>
-    <link>https://example.pages.dev/2026-06-12/zh/ai-trends-2026-06-12-zh.html</link>
-    <guid isPermaLink="true">https://example.pages.dev/2026-06-12/zh/ai-trends-2026-06-12-zh.html</guid>
+    <link>https://ai-trend-932.pages.dev/2026-06-12/zh/ai-trends-2026-06-12-zh.html</link>
+    <guid isPermaLink="true">https://ai-trend-932.pages.dev/2026-06-12/zh/ai-trends-2026-06-12-zh.html</guid>
     <pubDate>Fri, 12 Jun 2026 09:00:00 GMT</pubDate>
     <description>这周一点都不平静。Anthropic 突然发布 Claude Fable 5，重夺基准测试榜首；Microsoft 一口气公开了 7 款自研 MAI 模型；EU AI Act 全面执行（8月2日）倒计时，企业合规步伐加快；而 Q1 风险投资首次突破 3000 亿美元大关。这是 AI 行业又一次集体加速的一周。</description>
   </item>

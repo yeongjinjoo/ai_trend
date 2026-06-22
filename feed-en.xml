@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>This Week in AI</title>
-  <link>https://example.pages.dev/</link>
-  <atom:link href="https://example.pages.dev/feed-en.xml" rel="self" type="application/rss+xml"/>
+  <link>https://ai-trend-932.pages.dev/</link>
+  <atom:link href="https://ai-trend-932.pages.dev/feed-en.xml" rel="self" type="application/rss+xml"/>
   <description>A weekly, multilingual roundup of what matters in AI — in English, Chinese, Japanese and Korean.</description>
   <language>en</language>
-  <lastBuildDate>Mon, 22 Jun 2026 14:42:02 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 22 Jun 2026 15:09:05 GMT</lastBuildDate>
   <item>
     <title>The Agent Era Begins</title>
-    <link>https://example.pages.dev/2026-06-20/en/ai-trends-2026-06-20-en.html</link>
-    <guid isPermaLink="true">https://example.pages.dev/2026-06-20/en/ai-trends-2026-06-20-en.html</guid>
+    <link>https://ai-trend-932.pages.dev/2026-06-20/en/ai-trends-2026-06-20-en.html</link>
+    <guid isPermaLink="true">https://ai-trend-932.pages.dev/2026-06-20/en/ai-trends-2026-06-20-en.html</guid>
     <pubDate>Sat, 20 Jun 2026 09:00:00 GMT</pubDate>
     <description>This week, Microsoft turned Build 2026 into a full-throated declaration that Windows is now an AI agent platform. Models are launching faster than ever, Chinese models have effectively closed the gap with Western flagships, and Colorado quietly walked back its AI law. Not a quiet week.</description>
   </item>
   <item>
     <title>Fable 5 Arrives, Model Race Enters a New Phase</title>
-    <link>https://example.pages.dev/2026-06-12/en/ai-trends-2026-06-12-en.html</link>
-    <guid isPermaLink="true">https://example.pages.dev/2026-06-12/en/ai-trends-2026-06-12-en.html</guid>
+    <link>https://ai-trend-932.pages.dev/2026-06-12/en/ai-trends-2026-06-12-en.html</link>
+    <guid isPermaLink="true">https://ai-trend-932.pages.dev/2026-06-12/en/ai-trends-2026-06-12-en.html</guid>
     <pubDate>Fri, 12 Jun 2026 09:00:00 GMT</pubDate>
     <description>No quiet week here. Anthropic surprised the field with Claude Fable 5, reclaiming the benchmark crown, while Microsoft dropped seven in-house MAI models in one shot. Meanwhile, the EU AI Act&#39;s full enforcement date (August 2) is close enough that compliance teams are sprinting, and Q1 venture funding broke the $300B barrier for the first time ever. A week of pure acceleration.</description>
   </item>
