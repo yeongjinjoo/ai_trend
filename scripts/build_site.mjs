@@ -32,6 +32,11 @@ const SITE = {
   ogImage: 'og-default.svg',       // 공유 썸네일 (1200x630). PNG 권장은 PUBLISHING.md 참고
   subscribeUrl: '',                // beehiiv 등 구독 페이지 생기면 채우기. 비우면 RSS로 대체
   publisher: { name: '', url: '' },// 개인 브랜드: 이름 / 링크(LinkedIn 등). 비우면 표시 안 함
+  // 검색엔진 소유권 확인용 메타태그(content 값만). 빌드마다 index.html <head>에 자동 삽입됨.
+  siteVerification: {
+    google: 'KsLqzsZLW6vuJMYCl2Wk7nJ_eLDaoImEwWoi_5S8FAU',
+    bing: '', // Bing Webmaster Tools 등록 시 채우기
+  },
 };
 
 const LANGS = ['en', 'zh', 'ja', 'ko'];
@@ -290,7 +295,7 @@ function buildIndex(issues) {
 <meta property="og:url" content="${esc(SITE.url)}/">
 <meta property="og:image" content="${esc(abs(SITE.ogImage))}">
 <meta name="twitter:card" content="summary_large_image">
-<style>
+${SITE.siteVerification.google ? `<meta name="google-site-verification" content="${esc(SITE.siteVerification.google)}">\n` : ''}${SITE.siteVerification.bing ? `<meta name="msvalidate.01" content="${esc(SITE.siteVerification.bing)}">\n` : ''}<style>
   :root{--ink:#1a1a1a;--muted:#6b6b6b;--accent:#d4541b;--bg:#fafaf7;--card:#fff;--rule:#e8e6df;}
   *{box-sizing:border-box;}
   body{margin:0;background:var(--bg);color:var(--ink);line-height:1.6;
